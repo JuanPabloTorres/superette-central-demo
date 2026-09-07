@@ -13,6 +13,22 @@ Díaz, superettes de Villalba, etc.) y luego personalizarlo por cliente.
 
 ## Cambios de esta revisión
 
+- **UI rediseñada con inspiración en apps líderes de supermercado/e-commerce**
+  (Instacart, Amazon Fresh, Walmart): tarjetas de producto con imagen más grande,
+  botón flotante circular de "agregar" sobre la foto, insignia "Popular" y
+  jerarquía clara de nombre / descripción / precio.
+- **Escala de elevación consistente** (`elev-1`…`elev-4` en `index.css`): tarjetas,
+  buscador, barra flotante de carrito y menús usan sombras del mismo sistema en
+  vez de valores sueltos — se ve más pulido y profesional.
+- **Barra flotante de carrito** ("Ver carrito · $X.XX") visible en toda la app
+  del Cliente en cuanto hay algo en el carrito, salvo en Carrito/Checkout —
+  patrón estándar de apps de compra para no perder de vista el total.
+- **Navegación con estado activo visible**: pestaña superior (escritorio) con
+  subrayado verde y ítem activo en la barra inferior (móvil) con indicador,
+  siguiendo el patrón de apps modernas.
+- **Íconos por categoría también en los filtros del catálogo** (antes solo en
+  Inicio) — mapa de íconos centralizado en `src/ui/catIcons.js` para no duplicar.
+- **Buscador con botón de limpiar** y estado de foco más visible.
 - **Catálogo ampliado a 16 categorías** (antes 11): se separó "Higiene y Hogar" en
   **Limpieza del Hogar** y **Cuidado Personal**, y se agregaron **Ferretería y Hogar**,
   **Mascotas**, **Bebé** y **Farmacia y Salud** — las secciones que cualquier
