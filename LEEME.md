@@ -8,6 +8,29 @@ Juan Pablo para presentar sistemas a clientes.
 presentarlo a varios dueños de superette (ej. Superette Pastillo en Juana
 Díaz, superettes de Villalba, etc.) y luego personalizarlo por cliente.
 
+- **Repo:** https://github.com/JuanPabloTorres/superette-central-demo
+- **Demo en vivo:** https://juanpablotorres.github.io/superette-central-demo/
+
+## Cambios de esta revisión
+
+- **Catálogo ampliado a 16 categorías** (antes 11): se separó "Higiene y Hogar" en
+  **Limpieza del Hogar** y **Cuidado Personal**, y se agregaron **Ferretería y Hogar**,
+  **Mascotas**, **Bebé** y **Farmacia y Salud** — las secciones que cualquier
+  supermercado real tiene además de víveres. Catálogo pasó de ~55 a ~78 productos.
+- **Descripción real en cada producto** (`descripcion` en `src/data/catalogo.js`),
+  visible en la tarjeta del catálogo y en el detalle al agregar al carrito.
+- **Más ofertas tipo shopper**: 4 promociones nuevas (Kit Básico del Hogar,
+  Semana de Cuidado Personal, Combo Mascota Feliz, Bienvenida Bebé) además de
+  las 4 originales — 8 en total, cubriendo todas las secciones nuevas.
+- **Marca rediseñada**: el wordmark pasó de script cursivo a un logotipo sans-serif
+  en mayúsculas con ícono de canasta — se ve a supermercado, no a pizzería/panadería.
+- **Fondo y superficies**: se cambió la textura cálida de "papel de estraza" por un
+  gris-verde frío y sutil, más de piso de tienda que de menú de restaurante.
+- **Interruptor Cliente/Negocio mejorado**: ahora tiene íconos (persona/tienda),
+  una píldora deslizante animada y mayor contraste sobre la barra oscura.
+- **Íconos reales por categoría** en "Compra por categoría" (antes todas mostraban
+  el mismo ícono de canasta).
+
 ## Archivos entregados
 
 1. **`superette-central-demo.html`** — el build autocontenido. Doble clic y abre en cualquier navegador. Este es el archivo que se sube a GitHub Pages.
